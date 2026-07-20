@@ -1,0 +1,119 @@
+@import "tailwindcss";
+@plugin "tailwindcss-animate";
+
+:root {
+  /* Deep Obsidian & Lotus Pink Cyber Theme */
+  --background: #030303;
+  --foreground: #ffffff;
+  --card: #080808;
+  --card-foreground: #ffffff;
+  --popover: #030303;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff; 
+  --primary-foreground: #030303;
+  --secondary: #121212;
+  --secondary-foreground: #fafafa;
+  --muted: rgba(255, 255, 255, 0.03);
+  --muted-foreground: #a1a1aa;
+  --accent: #00F0FF; /* Numerology Electric Cyan (Birth 4) */
+  --accent-foreground: #030303;
+  --accent-gold: #D4AF37; /* Numerology Lucky Gold (Life Path 1) */
+  --accent-gold-foreground: #030303;
+  --destructive: #ef4444;
+  --destructive-foreground: #fafafa;
+  --border: rgba(255, 255, 255, 0.06);
+  --input: rgba(255, 255, 255, 0.06);
+  --ring: rgba(0, 240, 255, 0.5);
+  --radius: 0rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-gold: var(--accent-gold);
+  --color-accent-gold-foreground: var(--accent-gold-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius);
+  --radius-xl: var(--radius);
+  --font-sans: var(--font-space-grotesk), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50 box-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans overflow-x-hidden;
+    background-image: radial-gradient(circle at center, rgba(0,240,255,0.05) 0%, transparent 70%);
+    background-attachment: fixed;
+  }
+  
+  ::selection {
+    @apply bg-accent/30 text-accent;
+  }
+}
+
+/* Typography Classes */
+.display {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+.serif {
+  font-family: var(--font-instrument-serif), serif;
+}
+.mono {
+  font-family: var(--font-jetbrains-mono), monospace;
+}
+.meta {
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+/* Typography FX */
+.text-stroke {
+  -webkit-text-stroke: 1px var(--foreground);
+  color: transparent;
+}
+.text-stroke-accent {
+  -webkit-text-stroke: 1px var(--accent);
+  color: transparent;
+}
+
+/* Ethereal Grid */
+.cyber-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+  -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 100%);
+}
+
+/* Hide scrollbar for seamless tracking */
+::-webkit-scrollbar {
+  width: 0px;
+}

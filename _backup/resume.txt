@@ -1,0 +1,321 @@
+V ATHITHYA RAMAA                
+vathithyaramaa@gmail.com | +91- 9962581115 |
+LinkedIn
+ | 
+Github
+ |
+ 
+LeetCode
+ |
+Portfolio
+EDUCATION
+BTech CSE (Software Product Engineering)
+2023 
+–
+ 
+May 2027 (Expected)
+Campus: Kalasalingam University, Srivilliputhur | CGPA: 9.
+4
+5
+ |Gold Medal – 1
+st
+,
+ 2
+nd
+ 
+& 3
+rd
+ 
+year
+12
+th
+ CBSE Board                                                                                                                              2022 - 23
+School: Lalaji Memorial Omega International School, Chennai| Score: 92%
+10
+th
+ CBSE Board                                                                                                                              2020 - 21    
+School: Lalaji Memorial Omega International School, Chennai| Score: 96%
+                                                                                                           
+PERSONAL STATEMENT
+Results-driven Software Engineer specializing in scalable Full-Stack Web Development, advanced AI orchestration, and automated DevOps infrastructure. Proven track record of architecting robust microservices, event-driven systems, and responsive user interfaces, alongside a deep focus on building production-grade Multi-Agent AI applications and RAG pipelines. Eager to leverage my expertise in cutting-edge web technologies, cloud reliability, and continuous innovation to drive high-performance technical initiatives at a leading global enterprise.
+SKILLS
+Programming Languages:
+ TypeScript, JavaScript, Python, Java, C++
+Frontend:
+ React.js, Astro, HTML5, CSS3, Tailwind CSS, Storybook
+Backend & APIs:
+ Node.js, Express.js, GraphQL, RESTful APIs
+Databases & Caching:
+ MongoDB, SQL, Redis (Caching / Message Broker), Data Migration / ETL
+AI & Advanced Architecture:
+ LangChain, LangGraph, Multi-Agent Systems, Retrieval-Augmented Generation (RAG) Pipelines, AI Chatbots
+DevOps & Cloud Platforms:
+ AWS, Docker, Nginx, Linux, CI/CD Pipelines
+Software Architecture:
+ Microservices, Domain-Driven Design (DDD), Event-Driven Architecture, Monorepo Architecture
+Content Management Systems (CMS):
+ Directus, HyGraph
+Tools & Testing:
+ Git, GitHub, Jest (Unit Testing), Figma, Canva
+Relevant Coursework:
+ Data Structures & Algorithms (DSA), Database Management Systems (DBMS), Operating Systems (OS), Object-Oriented Programming (OOP)
+EXPERIENCE 
+iCliniq - Software Engineer Intern                                                                                          
+Since
+ 
+Jul 2024
+Architected and deployed a highly scalable data migration service that seamlessly transitioned 
+1,400+ healthcare professionals
+ and processed over 
+100M+ medical Q&A data points/articles
+, significantly optimizing content workflows and system uptime.
+Developed 
+Unified Tes
+, an AI-powered medical chatbot designed to streamline complex healthcare queries, improving user engagement and automating patient-to-information routing.
+Implemented 
+Domain-Driven Design (DDD)
+ and 
+Event-Driven Architectures
+ within a high-performance TypeScript and GraphQL monorepo, increasing backend scalability and reducing system coupling
+.
+Accelerating cross-functional capabilities by training in and adopting DevOps workflows (Docker, Nginx, Linux, AWS), laying the groundwork to take full ownership of the end-to-end cloud deployment and infrastructure management pipelines.
+Collaborated closely with cross-functional teams to integrate robust backend APIs with responsive user interfaces built using 
+React, Astro, and Tailwind CSS
+.
+Owned the end-to-end testing lifecycle by creating 
+Storybook
+ components and writing comprehensive unit tests using 
+Jest
+, ensuring UI consistency, accelerating continuous integration, and maintaining production-ready reliability
+.
+MultiCoreWare Inc – 
+Industrial Project
+ (Part-time)
+Since Aug 2025
+Developed a Radar Annotation Tool
+ for 
+2D and 3D Point Cloud annotation
+ using 
+YOLO
+ and the 
+NuScenes dataset
+.
+Contributed extensively to 
+research, frontend, and backend development
+ for both 
+automatic and manual annotation
+ workflows.
+Led the team
+ to successfully complete project milestones 
+within tight deadlines
+.
+Presented quarterly reviews
+ effectively, showcasing project progress and achievements.
+Collaborated closely with senior developers
+ to ensure all deliverables aligned with 
+company requirements and quality standards
+.
+OrientBell Tiles
+ – 
+Freelance
+ 
+Software Engineering Consultant
+                             
+        
+Nov 2024
+ – Mar 2025
+Designed and developed a chat – bot for the company’s main websit
+e
+. Scrapped tiles data from the website using beautifulsoup and leveraged the power of AI to cater to the needs of customers by intelligent answers.
+Diebold Ni
+xdorf – 
+Freelance
+ 
+Software Engineer
+ing Consultant
+Dec 2024
+ – Feb 2025
+Working on an AutoPay testing tool application focusing on implementing folder explorers and implementing test cases using React JS and Monaco Editor. 
+Microsoft Student Chapter
+ - President
+   
+                                                          
+ 
+Jul 2024 
+–
+ 
+Present
+Conducted interviews & recruited members for joining the core technical team of the club.
+Conducted various bootcamps and workshops for 200+ students on various topics.
+Conducted Hackathons and workshops for students
+GitHub Projects:
+(Links are embedded within the Project names for ready reference)
+ 
+DTwin – AI-Powered Digital Health Twin Plat
+form
+:
+ 
+Technologies Used
+: 
+MERN Stack, Google Gemini 2.5 Flash AI, Vite, Tailwind CSS, JWT, WebRTC, Clarifai API, Fitbit SDK
+Key Features:
+ 
+DTwin
+ is an intelligent health monitoring platform leveraging AI for personalized wellness insights. Features include Gemini Vision-powered face analysis for mental state detection, smart food logging with meal timing optimization, AI activity tracking, predictive blood sugar monitoring, and real-time disease risk assessment. The platform integrates Fitbit wearables, includes a conversational AI wellness assistant, and provides 3D body visualization. Built with RESTful API architecture, JWT authentication, and MongoDB, delivering a responsive React interface with interactive health visualizations and real-time nutrition tracking.
+Multi-Agent AI & Kno
+w
+ledge Automation Platform
+:
+       
+       
+Technologies Used
+: 
+LangGraph, LangChain, RAG Pipelines, Redis (Cachin
+g
+), Microservices, React, Node.js, Express, Docker, AWS (
+S3
+)
+, 
+Razorpay Payment Gateway
+Key Features:
+ 
+Architected and deployed a production-grade multi-agent platform from scratch, leveraging LangGraph to orchestrate autonomous, specialized AI agents capable of stateful decision-making and collaborative problem-solving. The core engine integrates an advanced Retrieval-Augmented Generation (RAG) pipeline utilizing vector embeddings and semantic search to extract data from dense knowledge bases with minimized hallucination rates. The platform is engineered on a decoupled full-stack microservices architecture, utilizing React for the interface and a high-performance Redis layer to handle session caching and rapid inter-
+service messaging. To ensure production-ready reliability, the entire ecosystem was containerized with Docker and deployed onto AWS cloud infrastructure, backed by custom Nginx reverse-proxy configurations for optimized traffic management and seamless horizontal scalability.
+Realtime Location Tracking App
+Technologies Used: 
+Javascript, Embedded Javascript, Socket.io
+Key Features: 
+Fullstack Application which tracks the location of devices real time with high precision by leveraging the power of web sockets for real time tracking.
+MiMory – Game Development
+ 
+Technologies used: 
+HTML, CSS, Java Script
+Key Features: 
+Developed an engaging memory game website that includes features such as text-to-speech for reading out text, and the ability to remember users' names and scores.
+Culinary Odyssey – Food Recipe Website
+                  
+Technologies used: HTML, CSS, Javascript, APIs
+Key Features: 
+Designed and developed a dynamic food recipe website utilizing HTML, CSS, JavaScript, and external APIs. The site features a daily randomized meal presentation and a comprehensive search functionality allowing users to explore recipes by category. Each recipe includes detailed ingredient lists, descriptions, and direct YouTube links, enhancing user engagement and culinary exploration.
+Tunify – Microservices P
+r
+oject:
+       
+       
+Technologies Used
+: 
+Microservices Architecture, 
+MERN Stack
+, 
+TypeScript
+, 
+Vite
+, 
+Tailwind CSS
+, 
+PostgreSQL (Neon)
+, 
+Redis
+, 
+JWT
+, 
+Cloudinary
+ & Multer. AWS 
+Deployment
+Key Features:
+ 
+Tunify is a scalable music streaming and management platform built using a 
+microservices architecture
+ consisting of 
+User, Song, and Admin services
+, each independently deployed and communicating via RESTful APIs. It features 
+secure JWT-based authentication
+, 
+Redis caching
+ for performance optimization, and 
+PostgreSQL (Neon)
+ for reliable relational data storage. The platform integrates 
+Cloudinary
+ for efficient media storage and delivery, and is 
+deployed on AWS
+ to ensure high availability and scalability. The frontend, developed with 
+React, Vite, and Tailwind CSS
+, delivers a fast, responsive, and intuitive user experience while adhering to clean code and MVP architectural principles.
+VAR Tech Pro E-Commerce Project:
+        
+Technologies Used
+: MongoDB, Express JS, React JS, Node JS, Restful APIs, Material UI, Joy UI, Context API, JWT, Payment Gateway
+Key Features:
+ This is a full-featured e-commerce application. It is notew
+orthy that
+ It has separate admin and user dashboards. It allows admins to manage categories and products, while users can browse products, add them to their cart, and proceed through checkout to a payment gateway. The application emphasizes clean coding techniques and an MVP architecture, uses Context API to ensure efficient state management and robust security. It is also SEO optimized with dynamic page names.
+Contact Manager App – Exclusive Backend App
+     
+Technologies Used
+: MongoDB, Express JS, Node JS, JWT
+Key Features: 
+This is a fully backend application designed for managing contacts. Users can perform CRUD operations on their contacts. It uses the MVP architecture for an organized folder structure and adheres to clean coding techniques. The application includes protected routes that are accessible only to authenticated users, utilizing JWT for security, and makes perfect use of middleware.
+NASA – ISS Tracker
+Technologies Used
+: 
+React 19, Three.js (React Three Fiber), Framer Motion, Leaflet.js, Node.js, Express, 
+Redis, Docker, RESTful APIs, satellite.js, Axios, Redis Commander, Google Gemini (Generative Language API), CI/CD (Vercel/Railway) 
+Key Features:
+ 
+ 
+F
+ull-featured ISS Command Center web platform that blends real-time mission operations with immersive educational tools. The dashboard provides live ISS tracking (3D Earth & orbital visualization), crew and mission details, and telemetry overlays. An AI-powered chatbot (backed by Google Gemini) offers instant space knowledge; responses are accelerated and cost-optimized via a Redis caching server. The site includes a Neutral Buoyancy Laboratory (NBL) training simulator with realistic physics, interactive quizzes/games, live camera feeds, TLE-based orbital predictions, and historical mission data. Modular architecture separates frontend and backend services for scalability and cloud deployment (Docker/Railway/Vercel). Emphasis on accessible, responsive UI, efficient state management, SEO-friendly structure, and developer-friendly clean code practices.
+ACHIEVEMENTS
+ & EXTRACURRICULARS
+Hackathons & Competitive Programming
+ICPC
+ Regionalist 2024.
+1
+st
+ Prize: CRYPTON 24 Hour Hackathon 
+(OWASP / ZOHO) out of 350+ participants
+2nd Prize:
+ Disfrutar 24-Hour Hackathon (ACM) out of 280 participants. 
+Secured an exclusive paid internship offer for exceptional performance, a distinction awarded to only two other 4th-year students.
+Hackathon-Driven Offers: 
+Secured SWE and Training internships at Diebold Nixdorf and OrientBell Tiles through top-tier performance in
+ 
+Hack-AI-Thon
+ and 
+DevFest
+ hackathons
+. Stood out as the only 2nd-year student to receive these offers across both events.
+2nd Prize: HackFest26 (36-Hour
+ National Level Hackathon 
+conducted by IEEE & M.Kumarasamy College of Engineering
+) and Agent Forge 2025 Hackathon.
+Industry Project Internship 
+from 
+Multicore ware Inc.
+,
+ 
+for exceptional performance in Innov – AI Hackathon conducted by 
+Open Source Society
+ club.
+Open Source & Technical Leadership
+Open Source Contributor & Mentor
+: 
+Led team contributions for Code For GovTech ; contributed to GirlScript’24 and mentored in Timechain Summer Of Coding.
+Technical Leadership:
+ Architected and developed platforms for multiple student chapters (GeeksforGeeks, ACM, OWASP, CSI), integrating payment gateways, certificate verification, and custom hackathon dashboards.
+Certifications:
+ Postman Student Expert; Microsoft Student Technical Training (Cloud Computing, AI/ML).
+Awards
+, 
+Recognitions
+ & Extra Curriculars
+6 times consecutive winner & center merit scholarship
+ by competition conducted by the 
+Ministry of Human Resources, Govt of Karnataka
+3 times consecutive State Rank Holder
+ of Putani Vignana Science Talent Examination, Govt of Karnataka
+PYROS Core Team Member (Drama, Acting & Debating).
+Speaker & Debater – actively taken part / won in Speech competitions, debates including the MUN.
+Languages Known: 
+English, Hindi, Tamil, Kannada (Fluent) | Telugu (Conversational)
+| Sanskrit 

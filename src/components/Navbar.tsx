@@ -39,8 +39,9 @@ export default function Navbar() {
           <div className="relative w-12 h-12 overflow-hidden border border-border group-hover:border-accent transition-colors duration-500 rounded-sm">
             <Image 
               src="/logo.png" 
-              alt="VAR Custom Logo" 
+              alt="V Athithya Ramaa Portfolio Logo - Systems & Cloud Architect" 
               fill 
+              priority
               className="object-cover group-hover:scale-110 transition-transform duration-700"
             />
           </div>

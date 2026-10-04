@@ -24,28 +24,18 @@ export function OSDashboard() {
   useEffect(() => {
     const fetchGitHub = async () => {
       try {
-        const response = await fetch("https://github-contributions-api.deno.dev/v-athithyaramaa.json");
+        const response = await fetch("https://github-contributions-api.jogruber.de/v4/v-athithyaramaa");
+        if (!response.ok) throw new Error("Failed to fetch");
         const data = await response.json();
         
-        // Flatten the 2D array of weeks into a 1D array of days
-        const flatDays = data.contributions.flat();
+        // The jogruber API returns data across multiple years.
+        // We need to sort chronologically and take the last 365 days.
+        const sortedDays = data.contributions.sort((a: Day, b: Day) => 
+          new Date(a.date).getTime() - new Date(b.date).getTime()
+        );
+        const last365 = sortedDays.slice(-365);
         
-        // Map to react-activity-calendar format
-        const formatted: Day[] = flatDays.map((day: any) => {
-          let level: 0|1|2|3|4 = 0;
-          if (day.contributionLevel === "FIRST_QUARTILE") level = 1;
-          if (day.contributionLevel === "SECOND_QUARTILE") level = 2;
-          if (day.contributionLevel === "THIRD_QUARTILE") level = 3;
-          if (day.contributionLevel === "FOURTH_QUARTILE") level = 4;
-          
-          return {
-            date: day.date,
-            count: day.contributionCount,
-            level
-          };
-        });
-        
-        setGithubData(formatted);
+        setGithubData(last365);
       } catch (err) {
         console.error("Failed to fetch github data:", err);
       } finally {

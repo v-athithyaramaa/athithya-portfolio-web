@@ -64,8 +64,9 @@ export function TelemetryAbout() {
         <div className="relative w-full h-full border border-border/50 grayscale hover:grayscale-0 transition-all duration-1000">
           <Image 
             src="/lotus.png" 
-            alt="V Athithya Ramaa" 
+            alt="V Athithya Ramaa - Full-Stack Engineer, Physical AI & Robotics, Distributed Systems" 
             fill 
+            loading="lazy"
             className="object-cover opacity-80"
           />
         </div>

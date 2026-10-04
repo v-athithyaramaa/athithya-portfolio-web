@@ -5,60 +5,109 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projects = [
     {
-        title: "DTwin",
+        title: "Multi-Agent AI & Stateful Knowledge Automation Platform",
         year: "2025",
-        constraint: "Deliver real-time predictive health monitoring, mental state detection, and personalized wellness tracking securely.",
-        decision: "Integrated Google Gemini Vision and Clarifai for deep analysis, leveraging WebRTC and a Fitbit SDK for real-time telemetry.",
-        result: "An intelligent, responsive health twin providing real-time interactive visualizations and accurate risk assessments.",
-        tech: ["MERN", "Gemini AI", "WebRTC", "Fitbit SDK", "JWT"],
-        type: "AI / Healthcare",
+        constraint: "Stateful multi-agent graph engine handling 500+ concurrent state requests with zero collision; hybrid dense-retrieval RAG pipeline reducing hallucination below 5% across dense technical knowledge bases.",
+        decision: "Built with LangGraph, LangChain, Redis, Python, Docker, AWS (EC2/S3).",
+        result: "Production-grade multi-agent platform orchestrated via LangGraph, utilizing RAG pipelines and vector embeddings.",
+        tech: ["LangGraph", "LangChain", "Redis", "Python", "Docker", "AWS"],
+        type: "GenAI / Agentic",
+        category: "GenAI & Agentic",
+        links: { github: "#", demo: "#", arch: "#" }
     },
     {
-        title: "Multi-Agent Platform",
-        year: "2026",
-        constraint: "Extract actionable insights autonomously from dense knowledge bases with near-zero hallucination rates in a production environment.",
-        decision: "Architected a decoupled microservices platform orchestrating specialized LangGraph agents, backed by RAG vector embeddings and a Redis caching layer.",
-        result: "Highly scalable, stateful multi-agent system deployed securely on AWS with custom Nginx load balancing.",
-        tech: ["LangGraph", "Microservices", "Redis", "RAG", "AWS"],
-        type: "LLM Orchestration",
-    },
-    {
-        title: "NASA – ISS Tracker",
+        title: "AegisStructure (ResQ-Vision) – AI Structural Risk Platform",
         year: "2025",
-        constraint: "Process and render live, complex orbital telemetry and 3D geospatial data without performance bottlenecks.",
-        decision: "Utilized Three.js and Leaflet.js for high-fidelity rendering, caching AI-powered space queries via Redis to optimize API costs.",
-        result: "Immersive, real-time command center featuring interactive 3D simulations and zero-latency TLE predictions.",
-        tech: ["Three.js", "Redis", "Docker", "Gemini AI", "satellite.js"],
-        type: "Simulation / Telemetry",
+        constraint: "Evaluates structural collapse risk compliant with FEMA P-154 and ATC-20 standards with sub-50ms radial proximity queries via PostGIS GIST indexing; client-side keyframe extraction via HTML5 Canvas and offline-first IndexedDB staging to guarantee zero data loss.",
+        decision: "Built with Next.js 15 (App Router), PostGIS, Leaflet.js, Upstash Redis, Web Audio API, Vercel.",
+        result: "Offline-first resilient geospatial risk platform.",
+        tech: ["Next.js 15", "PostGIS", "Leaflet.js", "Redis", "Web Audio API", "IndexedDB"],
+        type: "Full-Stack Platform",
+        category: "Full-Stack & Distributed",
+        links: { github: "#", demo: "#", arch: "#" }
     },
     {
-        title: "VAR Tech Pro",
+        title: "Generative GPT Transformer From Scratch & C++ Operator Engine",
         year: "2024",
-        constraint: "Ensure robust role-based access control and efficient, globally managed cart state across active user sessions.",
-        decision: "Implemented an MVP-driven full-stack architecture using the Context API for lightweight state management and JWT for secure isolation.",
-        result: "Scalable, SEO-optimized digital storefront with distinct admin/user portals and secure payment pipelines.",
-        tech: ["React", "Node.js", "MongoDB", "Context API", "JWT"],
-        type: "E-Commerce Arch",
+        constraint: "Built causal autoregressive GPT model from bare-metal PyTorch tensors with multi-head QKV projections, dynamic QKV caching, and residual blocks; profiling and INT8/FP16 quantization via Qualcomm QNN SDK and ONNX Runtime, achieving 60% memory compression on edge devices.",
+        decision: "Built with PyTorch, C++, Multi-Head Attention, QKV Cache, ONNX, Qualcomm QNN SDK.",
+        result: "Optimized bare-metal deep learning engine on edge hardware.",
+        tech: ["PyTorch", "C++", "Attention", "ONNX", "QNN SDK"],
+        type: "Deep Learning Systems",
+        category: "Systems & Physical AI",
+        links: { github: "#", demo: "#", arch: "#" }
     },
     {
-        title: "Contact Manager Backend",
+        title: "NASA – ISS 3D Mission Operations & Real-Time Tracker",
+        year: "2025",
+        constraint: "Interactive mission control dashboard rendering 3D Earth and orbital trajectories at 60 FPS for dense datasets; tracks 50+ satellite orbits with <200ms latency via satellite.js mathematical coordinate projections.",
+        decision: "Built with React 19, Three.js (React Three Fiber), Leaflet.js, Redis, Vercel.",
+        result: "High-performance orbital tracker rendering continuous telemetry data.",
+        tech: ["React 19", "Three.js", "Leaflet.js", "Redis", "satellite.js"],
+        type: "3D WebGL Graphics",
+        category: "Full-Stack & Distributed",
+        links: { github: "#", demo: "#", arch: "#" }
+    },
+    {
+        title: "Tunify – Microservices Audio Streaming Platform",
         year: "2024",
-        constraint: "Design a strictly authenticated, high-throughput REST API with flawless middleware execution and data isolation.",
-        decision: "Engineered a pure backend architecture applying MVP organization, modular middleware pipelines, and granular JWT protection.",
-        result: "A highly secure, decoupled, and performant backend service built entirely on standard clean coding principles.",
-        tech: ["Express.js", "Node.js", "MongoDB", "JWT", "REST API"],
-        type: "Backend Service",
+        constraint: "Decoupled User, Catalog, and Ingestion microservices communicating via REST APIs with isolated database schemas, sustaining sub-50ms latency across 1M+ monthly requests with JWT authentication and Redis rate limiting.",
+        decision: "Built with TypeScript, Node.js, PostgreSQL (Neon), Redis, Docker, AWS.",
+        result: "Highly scalable, decoupled backend service.",
+        tech: ["TypeScript", "Node.js", "PostgreSQL", "Redis", "Docker", "AWS"],
+        type: "Distributed Backend Architecture",
+        category: "Full-Stack & Distributed",
+        links: { github: "#", demo: "#", arch: "#" }
+    },
+    {
+        title: "DTwin – Real-Time AI Digital Health Dashboard",
+        year: "2025",
+        constraint: "Sub-50ms peer-to-peer WebRTC video stream processing for vital telemetry capture and interactive wellness metrics.",
+        decision: "Built with React, Vite, Tailwind CSS, WebRTC, Supabase, Vercel.",
+        result: "Real-time AI digital health twin interface.",
+        tech: ["React", "Vite", "WebRTC", "Supabase", "Tailwind CSS"],
+        type: "WebRTC Telemetry",
+        category: "Systems & Physical AI",
+        links: { github: "#", demo: "#", arch: "#" }
     }
 ];
 
+const categories = ["All", "Systems & Physical AI", "GenAI & Agentic", "Full-Stack & Distributed"];
+
 export function EngineeringGallery() {
     const [expanded, setExpanded] = useState<number | null>(0);
+    const [activeFilter, setActiveFilter] = useState("All");
+
+    const filteredProjects = projects.filter(p => activeFilter === "All" || p.category === activeFilter);
 
     return (
         <div className="w-full">
+            {/* Category Filter */}
+            <div className="flex flex-wrap gap-2 mb-8 md:mb-12">
+                {categories.map((cat) => (
+                    <button
+                        key={cat}
+                        onClick={() => {
+                            setActiveFilter(cat);
+                            setExpanded(null);
+                        }}
+                        className={`px-4 py-2 font-mono text-[10px] tracking-widest uppercase transition-colors border ${
+                            activeFilter === cat
+                                ? "bg-accent/10 border-accent/40 text-accent"
+                                : "border-border/50 text-muted-foreground hover:border-accent/40 hover:text-accent"
+                        }`}
+                    >
+                        {cat}
+                    </button>
+                ))}
+            </div>
+
             <div className="space-y-[1px] bg-border border border-border">
-                {projects.map((p, i) => {
-                    const isOpen = expanded === i;
+                {filteredProjects.map((p, index) => {
+                    // find original index for stable CASE-XX numbering if preferred, 
+                    // or just use map index. We'll use the original index for stability.
+                    const originalIndex = projects.findIndex(orig => orig.title === p.title);
+                    const isOpen = expanded === originalIndex;
                     return (
                         <motion.div
                             key={p.title}
@@ -68,18 +117,18 @@ export function EngineeringGallery() {
                             layout
                         >
                             <button
-                                onClick={() => setExpanded(isOpen ? null : i)}
+                                onClick={() => setExpanded(isOpen ? null : originalIndex)}
                                 className="w-full text-left px-6 py-6 md:px-10 md:py-8 flex items-center justify-between gap-4"
                                 aria-expanded={isOpen}
                             >
                                 <div className="flex items-center gap-6 min-w-0">
-                                    <span className="font-mono text-xs text-muted-foreground group-hover:text-accent transition-colors">
-                                        CASE-{String(i + 1).padStart(2, "0")}
+                                    <span className="font-mono text-xs text-muted-foreground group-hover:text-accent transition-colors shrink-0">
+                                        CASE-{String(originalIndex + 1).padStart(2, "0")}
                                     </span>
-                                    <span className={`text-2xl md:text-4xl font-light tracking-tight transition-colors ${isOpen ? "text-accent" : "text-foreground group-hover:text-accent"}`}>
+                                    <span className={`text-xl md:text-3xl font-light tracking-tight transition-colors truncate ${isOpen ? "text-accent" : "text-foreground group-hover:text-accent"}`}>
                                         {p.title}
                                     </span>
-                                    <span className="hidden md:inline font-mono text-[10px] tracking-widest uppercase text-muted-foreground">
+                                    <span className="hidden md:inline font-mono text-[10px] tracking-widest uppercase text-muted-foreground shrink-0">
                                         {p.type}
                                     </span>
                                 </div>
@@ -110,16 +159,29 @@ export function EngineeringGallery() {
                                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
                                                 <div className="space-y-8">
                                                     <div>
-                                                        <div className="font-mono text-[10px] tracking-widest text-accent mb-3 uppercase">Constraint</div>
+                                                        <div className="font-mono text-[10px] tracking-widest text-accent mb-3 uppercase">Architectural Highlights</div>
                                                         <p className="text-sm md:text-base leading-relaxed text-muted-foreground font-light">
                                                             {p.constraint}
                                                         </p>
                                                     </div>
                                                     <div>
-                                                        <div className="font-mono text-[10px] tracking-widest text-accent mb-3 uppercase">Key Decision</div>
+                                                        <div className="font-mono text-[10px] tracking-widest text-accent mb-3 uppercase">Stack Overview</div>
                                                         <p className="text-sm md:text-base leading-relaxed text-muted-foreground font-light">
                                                             {p.decision}
                                                         </p>
+                                                    </div>
+                                                    
+                                                    {/* External Links Triggers */}
+                                                    <div className="flex gap-4 pt-2">
+                                                        {["GitHub", "Demo", "Architecture"].map((lbl) => (
+                                                            <a 
+                                                                key={lbl}
+                                                                href="#" 
+                                                                className="font-mono text-[10px] tracking-widest uppercase border border-border/50 px-3 py-1 text-muted-foreground hover:text-accent hover:border-accent/40 transition-colors"
+                                                            >
+                                                                {lbl}
+                                                            </a>
+                                                        ))}
                                                     </div>
                                                 </div>
 

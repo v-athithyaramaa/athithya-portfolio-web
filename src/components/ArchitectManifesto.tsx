@@ -48,18 +48,18 @@ export function ArchitectManifesto() {
         className="col-span-1 lg:col-span-8 flex flex-col justify-center"
       >
         <h3 className="serif italic text-3xl md:text-5xl text-foreground mb-10 leading-tight">
-          "A visionary thinker and agile learner. I design robust backend engines and interfaces that communicate absolute precision."
+          "Engineering robust, low-latency distributed systems and physical AI architectures that scale flawlessly under production loads."
         </h3>
         
         <div className="font-sans text-base md:text-lg text-muted-foreground font-light leading-relaxed space-y-6 max-w-3xl">
           <p>
-            My engineering philosophy revolves around architecting production-grade multi-agent platforms and full-stack microservices. At <strong className="text-foreground font-normal">iCliniq</strong>, I build healthcare software that seamlessly connects patients and doctors across continents—where every system deployed must hold up under immense load.
+            My technical focus centers on bridging distributed platforms, automated infrastructure, and autonomous perception models. At <strong className="text-foreground font-normal">iCliniq</strong>, I decoupled monolithic business modules into domain-driven microservices, optimizing cold-start latency by 28% and architecting ETL pipelines that safely migrated 100M+ transaction records with zero downtime.
           </p>
           <p>
-            Boasting stellar leadership qualities, I effortlessly switch between being an adaptive team player and a dynamic team leader. Whether orchestrating autonomous LangGraph agents or engineering digital health twins (DTwin), I am goal-oriented, thrive on meeting strict deadlines, and actively seek meaningful collaborations.
+            In the physical AI domain with <strong className="text-foreground font-normal">MultiCoreWare</strong>, I developed high-bandwidth ROS 2 C++ nodes that process multi-channel Lidar/Radar feeds. By optimizing binary socket serialization and shared-memory IPC, we eliminated latency jitter and sustained a flawless 60 FPS spatial bounding box telemetry stream, cutting perception lag by 30ms.
           </p>
           <p>
-            I don't just write code; I architect solutions. I consistently push boundaries to craft avant-garde ideas that solve real-world problems.
+            From deploying RAG-backed multi-agent LangGraph orchestrators managing 500+ concurrent requests, to fine-tuning autoregressive GPT engines on bare-metal PyTorch tensors for edge hardware—I engineer systems defined by measurable performance, architectural resilience, and uncompromising reliability.
           </p>
         </div>
 

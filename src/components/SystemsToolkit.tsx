@@ -4,13 +4,15 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function SystemsToolkit() {
-  const [activeCategory, setActiveCategory] = useState<string>("CLIENT SYSTEMS");
+  const [activeCategory, setActiveCategory] = useState<string>("PROGRAMMING LANGUAGES");
 
   const categories = {
-    "CLIENT SYSTEMS": ["TypeScript", "React.js", "Next.js", "Astro", "Tailwind CSS", "Framer Motion", "Storybook", "Directus CMS"],
-    "CORE ARCHITECTURE": ["Node.js", "Java", "C++", "GraphQL", "Microservices", "Domain-Driven Design", "Event-Driven Arch", "MongoDB", "Redis"],
-    "INTELLIGENCE": ["Python", "LangChain", "LangGraph", "Multi-Agent Systems", "RAG Pipelines", "AI Chatbots"],
-    "INFRASTRUCTURE": ["AWS", "Docker", "Linux", "Nginx", "CI/CD Pipelines", "Data Migration / ETL", "Jest Testing"]
+    "PROGRAMMING LANGUAGES": ["Python (Advanced)", "SQL (PostgreSQL/MySQL)", "C++", "TypeScript", "JavaScript (ES6+)", "Java", "Bash/Shell"],
+    "AI, DEEP LEARNING & VISION": ["PyTorch", "Transformers", "QKV Cache", "Multi-Head Attention", "CNNs", "ResNet", "BEV Representations", "VLM/VLA Models", "INT8/FP16 Quantization", "RNNs/LSTMs"],
+    "GENAI & AGENTIC SYSTEMS": ["LangGraph", "LangChain", "Multi-Agent Orchestration", "RAG Pipelines", "Vector DBs (Chroma/Pinecone)", "Semantic Search", "Tool Calling"],
+    "BACKEND & DISTRIBUTED SYSTEMS": ["Node.js", "Express.js", "GraphQL (Apollo)", "REST APIs", "Microservices", "Domain-Driven Design (DDD)", "PostGIS", "Redis (In-Memory KV & Pub/Sub)", "Nginx"],
+    "CLOUD INFRASTRUCTURE & DEVOPS": ["AWS (EC2, S3, RDS, ECS, Lambda)", "Terraform", "Terragrunt", "Docker", "Kubernetes", "CI/CD (GitHub Actions)", "Linux Administration", "ROS 2 Nodes"],
+    "FRONTEND & VISUALIZATIONS": ["React 19", "Next.js 15 (App Router)", "Three.js (R3F)", "HTML5 Canvas", "Tailwind CSS", "Storybook", "WebSockets", "WebRTC"]
   };
 
   return (
